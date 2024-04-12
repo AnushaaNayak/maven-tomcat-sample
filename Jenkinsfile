@@ -1,5 +1,7 @@
  pipeline {     
-    agent {label 'slave-1'} 
+    agent {
+     label 'slave-1'
+    } 
     
     tools {
         jdk 'jdk17'
@@ -7,8 +9,7 @@
     } 
 
     stages {
-        
-         
+          
         stage('Compile') {
             steps {
             sh  "mvn compile"
