@@ -9,7 +9,6 @@
     } 
 
     stages {
-        
          
         stage('Compile') {
             steps {
@@ -17,7 +16,7 @@
             }
         }
         
-        stage('tests') {
+        stage('Tests') {
             steps {
                 sh "mvn test"
             }
