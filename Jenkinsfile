@@ -10,13 +10,13 @@
 
     stages {
           
-        stage('Maven Compile') {
+        stage('Compile') {
             steps {
             sh  "mvn compile"
             }
         }
         
-        stage('Maven Tests') {
+        stage('Tests') {
             steps {
                 sh "mvn test"
             }
