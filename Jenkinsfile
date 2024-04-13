@@ -16,7 +16,7 @@
             }
         }
         
-        stage('Tests') {
+        stage('Maven Tests') {
             steps {
                 sh "mvn test"
             }
