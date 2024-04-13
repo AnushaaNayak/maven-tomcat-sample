@@ -8,7 +8,7 @@
 
     stages {
       
-        stage('Maven Compile') {
+        stage('Compile') {
             steps {
             sh  "mvn compile"
             }
