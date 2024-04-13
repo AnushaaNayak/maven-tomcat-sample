@@ -7,7 +7,6 @@
     } 
 
     stages {
-        
          
         stage('Compile') {
             steps {
